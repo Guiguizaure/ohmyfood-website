@@ -1,0 +1,93 @@
+
+// LOADING SPINNER
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid $primary-color;
+    border-color: $primary-color transparent $secondary-color transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+.loading-spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 1;
+    animation: loading-spinner 2s;
+}
+
+
+.animation-home{
+    animation: body 2500ms;   
+   
+}
+
+.main-container {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+// SLIDE IN ANIMATION / MENU / CARDS
+.slide-in-first{
+    animation: slide-in-first 0.5s ease-in-out;
+}
+.slide-in-second{
+    animation: slide-in-first 0.8s ease-in-out;
+}
+.slide-in-third{
+     animation: slide-in-first 1.1s ease-in-out;
+}
+.slide-in-fourth{
+      animation: slide-in-first 1.4s ease-in-out;
+}
+
+
+
+    /* heart checkboxes */
+
+.restaurantmenu__presentation__title__like,
+.restaurants__figcaption__like {
+  position: relative;
+  width: 2rem;
+  margin: 0px 17px 30px 0px;
+  cursor: pointer;
+}
+.restaurantmenu__presentation__title__like,
+.restaurants__figcaption__like__menu {
+  position: relative;
+  width: 2rem;
+  margin: 10px 30px 30px 0px;
+  cursor: pointer;
+}
+
+.restaurants__figcaption__like__emptyheart {
+  width: 1.4rem;
+  transform: scaleY(1.1);
+  position: absolute;
+}
+
+.restaurants__figcaption__like__fullheart {
+  width: 1.4rem;
+  transform: scaleY(1.1);
+  position: absolute;
+  opacity: 0;
+}
+
+.restaurants__figcaption__like__fullheart:hover {
+  opacity: 1;
+  transition: 400ms ease-in-out;
+}

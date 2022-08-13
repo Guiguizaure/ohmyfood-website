@@ -1,0 +1,42 @@
+.footer a{
+    text-decoration: none;
+    font-family: $font-secondary;
+    color: white;
+    font-weight: $font-weight-thin;
+    margin-bottom: 11px;
+}
+
+.footer{
+    height: 195px;
+    background-color: $light-black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    
+    &__logo{
+        font-family: $font-primary;
+        font-size: 17px;
+        margin-top: 28px;
+        margin-bottom: 21px;
+    }
+    
+    &__flex{
+        margin-bottom: 9px;
+    }
+    &__flex a {
+        font-weight: $font-weight-normal;
+    }
+    &__flex i {
+        margin-right: 7px;
+    }
+    &__flex .ustensils{
+        font-size: 14px;
+    }
+    &__flex .handshake{
+        font-size: 10px;
+    }
+    
+}
+
+

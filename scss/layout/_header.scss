@@ -1,0 +1,14 @@
+.header{
+    text-align: center;
+    position: relative;
+
+    &__logo{
+        height: 62px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
