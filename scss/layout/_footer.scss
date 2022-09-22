@@ -14,6 +14,11 @@
     flex-direction: column;
     padding-left: 22px;
     
+    &__column{
+        display: flex;
+        flex-direction: column;
+    }
+    
     &__container{
         max-width: 390px;
         margin: 0 auto;
@@ -36,10 +41,6 @@
     
     &__flex{
         margin-bottom: 9px;
-    }
-    &__column{
-        display: flex;
-        flex-direction: column;
     }
     &__flex a {
         font-weight: $font-weight-normal;
