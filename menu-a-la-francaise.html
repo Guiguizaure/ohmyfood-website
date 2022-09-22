@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <!-- Lien FontAwesome -->
+    <!-- 
+        <i class="fa-solid fa-location-dot"></i>            LOCATION
+        <i class="fa-solid fa-mobile-screen-button"></i>    MOBILE
+        <i class="fa-solid fa-arrow-left"></i>              BACK ARROW
+        <i class="fa-solid fa-bars"></i>                    MENU BAR
+        <i class="fa-solid fa-store"></i>                   STORE
+        <i class="fa-solid fa-heart"></i>                   HEART
+        <i class="fa-solid fa-utensils"></i>                UTENSILS
+        <i class="fa-solid fa-handshake-angle"></i>         HANDSHAKE
+        <i class="fa-solid fa-circle-check"></i>            CHECK
+    -->
+
+    <script src="https://kit.fontawesome.com/31305a7ee5.js" crossorigin="anonymous"></script>
+    
+    <title>Menu à la française</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-menu">
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="images/logo/ohmyfood.png" alt="Logo de Ohmyfood">
+        </div>  
+    </header>
+
+    <section class="image-menu">
+        <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image d'un plat du restaurant La note enchantée">
+    </section>
+
+    <main class="main">
+        <div class="main__header">
+            <h2>À la française</h2>
+
+            <div class="restaurants__figcaption__like__menu">
+                <div class="restaurants__figcaption__like__emptyheart">
+                    <!-- svg coeur vide  -->
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="grey" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                    </svg>
+                  <!--  -->
+                </div>
+                <div class="restaurants__figcaption__like__fullheart">
+                  <!-- svg coeur dégradé -->
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <defs>
+                      <linearGradient id="gradient-fill" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#9356dc" />
+                        <stop offset="0.25" stop-color="#a85adc" />
+                        <stop offset="0.5" stop-color="#cf64dc" />
+                        <stop offset="0.75" stop-color="#f172da" />
+                        <stop offset="1" stop-color="#ff79da" />
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#gradient-fill) #9356dc" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
+                  </svg>
+                  <!--  -->
+                </div>
+            </div>
+        </div>
+
+        <div class="title-container">
+            <h3 class="main__title">ENTRÉES</h3>
+        </div>
+        <section class="menu-section">
+
+            <a href="#" class="slide-in-first menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Tartare de poulpe acidulé
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Aux zestes d'orange
+                    </p>
+                    <p class="menu-card-price">
+                        25€
+                    </p>
+                </div>
+            </a>
+
+            
+            <a href="#" class="slide-in-second menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Velouté de légumes d'antan
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Carotte, panais, topinambour
+                    </p>
+                    <p class="menu-card-price">
+                        35€
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="slide-in-third menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Soupe à l'oignon
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Revisitée
+                    </p>
+                    <p class="menu-card-price">
+                        20€
+                    </p>
+                </div>
+            </a>
+
+            
+        </section>
+
+        
+
+        <div class="title-container">
+            <h3 class="main__title">PLATS</h3>
+        </div>
+        <section class="menu-section">
+            <a href="#" class="slide-in-first menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Coquilles Saint-Jacques
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Accompagnées d'une purée de panais
+                    </p>
+                    <p class="menu-card-price">
+                        40€
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="slide-in-second menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Magret de canard
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Et parmentier de pommes de terre
+                    </p>
+                    <p class="menu-card-price">
+                        35€
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="slide-in-third menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Pigeonneau d’Ille-et-Vilaine
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Sur son lit de gnocchis aux légumes
+                    </p>
+                    <p class="menu-card-price">
+                        44€
+                    </p>
+                </div>
+            </a>
+        </section>
+
+
+
+        <div class="title-container">
+            <h3 class="main__title">DESSERTS</h3>
+        </div>
+        <section class="menu-section">
+            <a href="#" class="slide-in-first menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Pétales de violettes glacés
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Et purée de noisettes
+                    </p>
+                    <p class="menu-card-price">
+                        18€
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="slide-in-second menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Fondant au chocolat
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Revisité
+                    </p>
+                    <p class="menu-card-price">
+                        22€
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="slide-in-third menu-card">
+
+                <i class="menu-card__icone fa-solid fa-circle-check"></i>  
+
+                <h4 class="menu-card__recipe"> 
+                    Millefeuille croustillant
+                </h4>
+
+                <div class="menu-card__flex">
+                    <p class="menu-card-details">
+                        Myrtilles et pâte d’amande
+                    </p>
+                    <p class="menu-card-price">
+                        23€
+                    </p>
+                </div>
+            </a>
+
+            
+        </section>
+        <div class="menu-btn">
+            <a class="commander linear-gradient-btn">Commander</a>
+        </div>  
+    </main>
+
+
+
+    
+    
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <h3 class="footer__logo">ohmyfood</h3>
+
+            <div class="footer__flex">
+                <i class="fa-solid fa-utensils"></i> 
+                <a href="#">Proposer un restaurant</a>
+            </div>
+            <div class="footer__flex">
+                <i class="fa-solid fa-handshake-angle"></i> 
+                <a href="#">Devenir partenaire</a>
+            </div>
+
+            <div class="footer__column">
+                <a href="#">Mentions légales</a>
+
+                <a href="mailto:ohmyfood@gmail.com?">Contact</a>
+            </div>
+        </div>  
+    </footer>
+
+</body>
+</html>
